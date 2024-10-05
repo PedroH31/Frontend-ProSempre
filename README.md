@@ -5,7 +5,7 @@ Aplicação web do desafio ProSempre, feita usando JavaScript, HTML5 e Css3
 ## Front-end: 
 - Pedro Henrique de Almeida Freitas
 
-## Mockup: https://www.figma.com/design/VqQmVN9QCFyucIXSoZOaZ0/PS-2024.2-eject?node-id=0-1&node-type=canvas&t=LFiLBmd2t94FIfve-0
+### Mockup: https://www.figma.com/design/VqQmVN9QCFyucIXSoZOaZ0/PS-2024.2-eject?node-id=0-1&node-type=canvas&t=LFiLBmd2t94FIfve-0
 
 ## Tecnologias usadas: 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
