@@ -9,4 +9,4 @@ function renderizar(pagina) {
         })
 }
 
-renderizar("forum") 
+renderizar("home") 
