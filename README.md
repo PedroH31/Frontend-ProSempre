@@ -13,7 +13,7 @@ Aplicação web do desafio ProSempre, feita usando JavaScript, HTML5 e Css3
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Comandos para iniciar:
-  - cd DesafioProSempre
+  (se certifiquem que estão na pasta "DesafioProSempre" antes de rodar os comandos)
   - npm install
   - npm run dev (comando para iniciar o servidor de produção local)
     
