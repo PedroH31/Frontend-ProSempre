@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const root = document.querySelector("#app");
 
+ hero-e-ferramentas
     // Função para renderizar a página com base no nome
     function renderizar(pagina) {
         fetch(`./paginas/${pagina}/${pagina}.html`)
@@ -73,4 +74,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     })
 })
-
