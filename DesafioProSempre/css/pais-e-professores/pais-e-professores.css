@@ -21,8 +21,9 @@ span{
     font-weight: 400;
   }
 
-.destaque{
+.container{
   display: flex;
+  background-image: url('../../img/home/hero-bg.png');
   flex-direction: column;
   align-self: flex-start;
   align-items: center;
@@ -42,6 +43,12 @@ span{
   line-height: 32px;
   letter-spacing: 7.5%;
 
+}
+
+section{
+  display: grid;
+  padding: 3em;
+  grid-gap: 2em;
 }
 .amarelo{
     color: var(--amarelo-principal);
