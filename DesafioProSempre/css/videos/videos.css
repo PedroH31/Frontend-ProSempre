@@ -1,0 +1,112 @@
+section {
+    font-family: "DM Sans", sans-serif;
+    margin: 1em 0 5.4em 0;
+}
+
+span {
+    font-family: "DM Serif Display", serif;
+}
+.italico {
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+.preto{
+    color: #0A0430;
+}
+.roxo {
+    color: #704EEA;
+}
+.rosa {
+    color: #E924AE;
+}
+.laranja {
+    color: #F19436;
+}
+
+
+.main{
+    margin: 0;
+    height: 798px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: top;
+    align-items: center;
+    margin-bottom: 88px;
+}
+
+.hero{
+    background-image: url("/img/home/hero-bg.png");
+    background-size: 100%;
+    margin: 0;
+    height: 704px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    text-align: center;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    max-width: 41.75em;
+    font-size: 48px;
+}
+
+.legenda {
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 7.5%;
+}
+
+
+.botões{
+    border: 1px solid red;
+    width: 100%;
+    height: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorias{
+    border: 1px solid red;
+    width: 80%;
+    height: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:40px;
+}
+
+.componente{
+    background-color: white;
+    border: none;
+    width: 25%;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    cursor: pointer;
+}
+
+.componente p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 7.5%;
+}
+
+.componente img {
+    min-height: 40px;
+    width: auto;
+    max-width: 100%;
+}
