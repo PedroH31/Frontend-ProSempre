@@ -1,14 +1,16 @@
 <!DOCTYPE html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/home/home.css">
     </head>
     
-    <div id="home">
-        <section class=" hero">
+    <body id="home">
+        <section class="home-container hero">
             <div>
                 <h1>O melhor lugar para
-                    crianças <a class="roxo italico">aprenderem</a> &
-                    <a class="amarelo italico">brincarem</a></h1>
+                    crianças <span class="roxo italico">aprenderem</span> &
+                    <span class="amarelo italico">brincarem</span></h1>
                 <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Phasellus at mauris quis magna aliquet condimentum. 
                     Cras et turpis id eros tincidunt faucibus. 
@@ -18,22 +20,59 @@
         </section>
         <section class=" ferramentas">            
             <h2>Nossas ferramentas
-                <a class="roxo italico">interativas</a></h2>
-            <div>
+                <span class="roxo italico">interativas</span></h2>
+            <div id="ferramentas">
                 <div class="ferramenta">
                     <h2>???</h2>
                     <p>Lorem ipsum dolor sit amet</p>
                 </div>
                 <div class="ferramenta">
-                    <h2>Atividades <a class="laranja italico">criativas</a></h2>
+                    <h2>Atividades <span class="laranja italico">criativas</span></h2>
                     <p>Lorem ipsum dolor sit amet</p>
                 </div>
                 <div class="ferramenta">
-                    <h2>Jogos <a class="laranja italico">educacionais</a></h2>
+                    <h2>Jogos <span class="laranja italico">educacionais</span></h2>
                     <p>Lorem ipsum dolor sit amet</p>
                 </div>
             </div>
-
         </section>
-    </div>
+        <div class="equipe-container">
+            <h2><span class="italico">Nossa equipe</span> <i>conta com os</i> 
+                <span class="amarelo italico">melhores e mais preparados</span> 
+                <i>profissionais</i> para criar o melhor conteúdo para 
+                <span class="amarelo italico">sua criança</span></h2>
+            <div class="membros">
+                <img class="icone-seta" src="../img/icones/seta-esq.png">
+                <div class="profissionais" id="profissionais">
+                    <div class="profissional">
+                        <img src="../img/home/profissionais/equipe-isaac.png"> 
+                        <h3>Isaac Lima</h3>
+                        <p>Psicólogo infantil</p>
+                        <p>CRM/RN 000000</p>
+                    </div>
+                    <div class="profissional">
+                        <img src="../img/home/profissionais/equipe-isaac.png"> 
+                        <h3>Isaac Lima</h3>
+                        <p>Psicólogo infantil</p>
+                        <p>CRM/RN 000000</p>
+                    </div>
+                    <div class="profissional">
+                        <img src="../img/home/profissionais/equipe-isaac.png"> 
+                        <h3>Isaac Lima</h3>
+                        <p>Psicólogo infantil</p>
+                        <p>CRM/RN 000000</p>
+                    </div>
+                    <div class="profissional">
+                        <img src="../img/home/profissionais/equipe-isaac.png"> 
+                        <h3>Isaac Lima</h3>
+                        <p>Psicólogo infantil</p>
+                        <p>CRM/RN 000000</p>
+                    </div>
+                </div>
+                <img class="icone-seta" src="../img/icones/seta-dir.png">
+            </div>
+
+        </div>
+        <script type="module" src="../js/utility/containers.js"></script>
+    </body>
 </html>
