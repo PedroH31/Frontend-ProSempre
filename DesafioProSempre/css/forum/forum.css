@@ -1,14 +1,15 @@
 .hero{
   display: flex;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-top: 70px;
+
+  padding: 0px 100px 0 100px;
+  margin: 70px 0px 100px 0px;
   height: 400px;
 }
 
 .hero-section1{
   width: 50%;
+
 }
 
 .titulo-hero{
@@ -95,7 +96,7 @@
   position: absolute;
   z-index: 990;
   bottom: 50%;
-  left: 5%;
+  left: 4%;
 }
 
 .img2-container{
@@ -104,7 +105,7 @@
   position: absolute;
   z-index: 990;
   bottom: 35%;
-  right: 18%;
+  right: 15%;
 }
 
 .img3-container{
@@ -112,7 +113,7 @@
   height: 135px;
   position: absolute;
   z-index: 990;
-  bottom: 10%;
+  bottom: 13%;
   right: 60%;
 }
 
@@ -138,3 +139,45 @@
   border-radius: 50px;
 }
 
+.centraliza{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-novo-topico{
+  border-radius: 50px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.05);
+
+  width: 80%;
+  height: 300px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.textarea-add-novo-topico{
+  margin: 30px 0 0 50px;
+  border: none;
+  font-size: 18px;
+  width: 85%;
+  height: 80%;
+  resize: none;
+  font-family: 'DM sans';
+  outline: none;
+  overflow: hidden;
+}
+
+.textarea-add-novo-topico::placeholder{
+  color: rgba(191, 191, 191, 1);
+}
+
+.img-add-novo-topico{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+
+}
