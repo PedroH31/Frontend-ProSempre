@@ -1,6 +1,5 @@
 .footer {
-    overflow: hidden;
-    padding: 13.18em 19.6em 3.95625em 8.62em;
+    padding: 13.18em 5.6em 3.95625em 0;
     background: url('/img/footer/footer-bg.png') no-repeat;
     background-size: cover;
     color: #f5f5f5;
