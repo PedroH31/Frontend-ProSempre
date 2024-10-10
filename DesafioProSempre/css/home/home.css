@@ -3,7 +3,7 @@ body {
 }
 
 section {
-    margin: 1em 0 5.4em 5.18em;
+    margin: 1em 8.75em 5.4em;
 }
 
 /* descricoes */
@@ -36,10 +36,43 @@ span {
     color: #F19436;
 }
 
+.branco {
+    color: #FFFDF2;
+}
+
+/* cores do background */
+
+.background-amarelo {
+    background-color: #FFD25B;
+}
+
+.background-rosa {
+    background-color: #E924AE;
+}
+
+.background-roxo {
+    background-color: #6F24E9;
+}
+
+.background-branco {
+    background-color: #FFFDF2;
+}
+
+/* cores de borda */
+
+.borda-branca {
+    border: 1px solid #FFFDF2;
+}
+
+.borda-roxa {
+    border: 1px solid #6F24E9;
+}
+
 /* hero */
 
 .hero {
-    padding: 0 20.5em;
+    margin: 4em 0 5.5em 5.18em;
+    padding: 0 18.5em;
     background-image: url("/img/home/hero-bg.png");
     background-size: 99%;
     text-align: center;
@@ -51,7 +84,7 @@ span {
     padding: 0;
     margin: 0;
     max-width: 41.75em;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .hero div {
@@ -61,13 +94,19 @@ span {
 }
 
 .hero p {
-    padding: 3em 0 2em 0;
+    padding: 2em 0 2em 0;
 }
 
 
 /* botoes */
 
 .saber-mais {
+    display: flex;
+    flex-direction: row;
+    gap: 0.93em;
+    margin: 0 auto;
+    line-height: 32px;
+    margin-top: 1em;
     padding: 0.625em 1.87em;
     border-radius: 50px;
     border: none;
@@ -76,16 +115,13 @@ span {
     background-color: #704EEA;
 }
 
+.saber-mais img {
+    margin-top: 0.55em
+}
+
 .saber-mais:hover {
     cursor: pointer;
     
-}
-
-/* icones */
-
-.icone-seta {
-    height: 1.14em;
-    margin: 0 3.12em 13em 3.12em;
 }
 
 /* ferramentas */
@@ -93,7 +129,6 @@ span {
 .ferramentas {
     display: flex;
     flex-direction: column;
-    padding-left: 4.2em
 }
 
 .ferramentas div {
@@ -101,22 +136,25 @@ span {
     justify-content: flex-start;
 }
 
-.ferramentas h2 {
-    max-width: 348px;
-    font-size: 1.5rem;
+.ferramentas p {
+    font-size: 0.9rem;
+    color: #0A0430;
+    margin: 0;
 }
 
 .ferramentas-titulo {
-    margin-bottom: 3.75em;
+    font-size: 1.5rem;
+    max-width: 300px;
 }
+
 
 .ferramenta {
     flex-direction: column;
     background-color: #704EEA;
-    padding: 13.25em 5.37em 3.25em 2.43em;
+    padding: 10.25em 4em 3.25em 2.43em;
     border-radius: 2.12em;
     color: #FFFDF2;
-    margin: 2.7em 2.5em 0 0;
+    margin: 2.7em 5em 0 0;
 }
 
 /* equipe */
@@ -129,11 +167,11 @@ span {
 }
 
 .equipe-container h2 {
-    padding: 1.5em 7em 2.62em;
+    padding: 1.5em 6.8em 1em;
     font-weight: 500;
     text-align: center;
     font-size: 2.61rem;
-    line-height: 69px;
+    line-height: 50px;
     color: #FFFDF2;
 }
 
@@ -146,27 +184,101 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 7.5em;
+    margin: 2.5em 0;
     padding-bottom: 3.75em;
 }
 
 .profissionais {
     display: flex;
-    gap: 3.75em;
+    gap: 2em;
     color: #FFFFFF;
     font-size: 1.5rem;
 }
 
 .profissional img {
-    width: 8em;
+    width: 7.5em;
 }
 
 .profissional p {
-    font-size: 1rem;
-    margin: 0.3em 0;
+    font-size: 0.9rem;
+    margin: 0 0 0.3em 0;
 }
 
 .profissional h3 {
-    margin-top: 0.5em;
+    margin: 0.6em 0 0.3em 0;
+    font-size: 1.25rem;
 }
 
+/* icones */
+
+.icone-seta {
+    height: 1.14em;
+    margin: 0 3.12em 8em 3em;
+}
+
+/* plataformas */
+
+.plataforma-container {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.8em;
+    font-size: 1.3rem;
+    padding: 5em 3em;
+    margin: 0 6.5em;
+    text-align: center;
+    margin-bottom: 4.2em
+}
+
+.plataforma-container h2 {
+    margin: 0;
+}
+
+.plataforma-container p {
+    font-size: 1rem;
+    margin: 1.82em 10.5em 3.1em
+}
+
+.plataforma-btn {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 223px;
+    max-height: 55px;
+    border-radius: 50px;
+    padding: 0.62em 1.8em;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2.1em;
+}
+
+.plataforma-btn img {
+    margin: 0 0 0 0.62em;
+    border-radius: 50%;
+    padding: 0.50em 0.8em;
+}
+
+.plataforma-btn:hover {
+    cursor: pointer;
+}
+
+.cards-artigo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-top: 3.6em
+}
+
+.card-artigo {
+    max-width: 22.5em;
+    max-height: 18.75em;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.card-descricao {
+    margin-top: 0.5em;
+    font-size: 1.12rem;
+}
