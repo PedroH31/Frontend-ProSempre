@@ -328,3 +328,89 @@
   width: 10px;
   height: 5.5px;
 }
+
+.topicos-populares{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0 100px 0;
+  
+}
+
+.titulo-topicos-populares{
+  font-family: 'DM sans';
+  color: rgba(10, 4, 48, 1);
+  font-size: 40px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.titulo-topicos-populares span{
+  font-family: 'DM Serif Display';
+  font-style: italic;
+  color: rgba(111, 36, 233, 1);
+  font-weight: 400;
+
+}
+
+.topicos-populares-itens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.item-topico-popular{
+  background-color: rgba(223, 200, 254, 1);
+  width: 370px;
+  height: 420px;
+  border-radius: 50px;
+}
+
+.item-topico-popular-content{
+  font-family: 'DM sans';
+  margin: 25px 0 0 25px;
+  color: rgba(10, 4, 48, 1);
+}
+
+.item-topico-popular h3{
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.item-topico-popular p{
+  margin-bottom: 30px;  
+}
+
+/*centralizar isso aqui direito*/
+.item-topico-popular-section1{
+  display: flex;
+  align-items: center;  
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+/*centralizar isso aqui direito*/
+.item-topico-popular-section2{
+  display: flex;
+  align-items: center;
+  
+  gap: 10px;
+  font-size: 14px;
+}
+
+.comentario-icone-topico-popular{
+  width: 30px;
+  height: 30px;
+}
+
+.relogio-icone-topico-popular{
+  width: 30px;
+  height: 30px;
+}
