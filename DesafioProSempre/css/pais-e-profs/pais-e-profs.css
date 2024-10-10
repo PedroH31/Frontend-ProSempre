@@ -30,7 +30,7 @@ span{
   flex-direction: column;
   align-items: center;
   height: 65vh;
-  top: 936px ;
+  margin-top: 55px;
 }
 .titulo{
   text-align: center;
@@ -40,15 +40,16 @@ span{
   text-align: center;
 } 
 .descricao {
+  font-weight: 400;
   text-align: center;
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 7.5%;
 }
-section.colorir{
+section.card-gallery{
   left: 140px;
   display: grid;
-  padding:  0 10em;
+  padding:  0 12em;
 }
 .amarelo{
     color: var(--amarelo-principal);
@@ -62,24 +63,41 @@ section.colorir{
   font-weight: 600;
   font-size: 36px; 
   line-height: 52px;
+  left: 100px;
 }
 
 .cards{
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 35px;
 }
 
-.colorir .rectangle-divider {
+.card-gallery .rectangle-divider {
   width: 60px;  
   height: 8px;  
   background-color: var(--amarelo-principal); 
 }
 
+.item{
+  position: relative;
+}
+
 .item img{
+  display: block;
   width: 360px; 
   height: 220px;
-  border-radius: 35px; 
+  border-radius: 35px;
+  background-color: var(--cor-de-cobertura);
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  width: 360px; 
+  height: 220px;
+  border-radius: 35px;
+  background-color: var(--cor-de-cobertura); /* cor vermelha com transparência */
+  pointer-events: none;
 }
 
 .item p {
