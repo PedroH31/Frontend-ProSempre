@@ -5,14 +5,16 @@
     --roxo-principal: #704EEA;
     --lilas-secundaria: #DFC8FE;
 
-    --amarelo-principal: #ffdc04;
+    --amarelo-principal: #F19436;
     --amarelo-secundario: #FFD25B;
     --amarelo-areia: #FFF3A9;
+    --cor-de-cobertura: rgba(255, 181, 85, 0.25);
+    ;
+
   }
 
 body {
     font-family: 'DM Sans', sans-serif;
-    
   }
 
 span{
@@ -24,13 +26,13 @@ span{
 .container{
   display: flex;
   background-image: url('../../img/home/hero-bg.png');
+  background-size: 95%;
   flex-direction: column;
-  align-self: flex-start;
   align-items: center;
-  height: 55vh;
+  height: 65vh;
   top: 936px ;
 }
-.title{
+.titulo{
   text-align: center;
   font-size: 48px;
   line-height: 63.13px;
@@ -42,13 +44,11 @@ span{
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 7.5%;
-
 }
-
-section{
+section.colorir{
+  left: 140px;
   display: grid;
-  padding: 3em;
-  grid-gap: 2em;
+  padding:  0 10em;
 }
 .amarelo{
     color: var(--amarelo-principal);
@@ -56,4 +56,36 @@ section{
 
 .roxo{
     color: var(--roxo-principal);
+}
+
+.subtitulo{
+  font-weight: 600;
+  font-size: 36px; 
+  line-height: 52px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.colorir .rectangle-divider {
+  width: 60px;  
+  height: 8px;  
+  background-color: var(--amarelo-principal); 
+}
+
+.item img{
+  width: 360px; 
+  height: 220px;
+  border-radius: 35px; 
+}
+
+.item p {
+  font-size: 24px ;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 32px;
 }
