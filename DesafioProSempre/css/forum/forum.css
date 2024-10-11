@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .hero{
   display: flex;
   align-items: center;
@@ -46,7 +51,8 @@
   color: #0A0430;
   font-size: 16px;
   width: 76%;
-  margin-top: -10px;
+  margin-top: 15px;
+  letter-spacing: 1.5px;
 }
 
 .hero-btn{
@@ -63,6 +69,8 @@
   gap: 5px;
   width: 130px;
   height: 50px;
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
 .hero-btn-span{
@@ -179,5 +187,232 @@
   bottom: 30px;
   right: 30px;
   cursor: pointer;
+
+
+}
+
+.topicos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.item-topico{
+  width: 80%;
+  height: 420px;
+  border-radius: 50px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.05);
+}
+
+.item-topico h3{
+  font-family: 'DM sans';
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.conteudo-item-topico{
+  margin: 40px 0px 0px 50px;
+}
+
+.perfil-item-topico{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icone-perfil-item-topico{
+  background-color: rgba(223, 200, 254, 1);
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+}
+
+.icone-perfil-item-topico img{
+  width: 40px;
+  height: 40px;
+  transform: translateX(13px) translateY(8px);
+} 
+
+.nome-perfil-item-topico{
+  font-family: 'DM sans';
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+}
+
+.tempo-postado-perfil-item-topico{
+  font-family: 'DM sans';
+  color: rgba(217, 217, 217, 1);
+  font-size: 14px;
+}
+
+.paragrafo-item-topico{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.paragrafo-item-topico p{
+  color: rgba(10, 4, 48, 1);
+  font-family: 'DM sans';
+  font-size: 16px;
+}
+
+.paragrafo-item-topico span{
+  color: rgba(217, 217, 217, 1);
+  font-family: 'DM sans';
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+
+.footer-item-topico{
+  display: flex;
+  margin-top: 30px;
+  font-family: 'DM sans';
+
+}
+
+.salvar-icon-item-topico{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+
+}
+
+.add-comentario-item-topico{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-comentario-item-topico img{
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.icons-item-topico{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 60%;
+}
+
+.add-comentario-item-topico p{
+}
+
+.footer-sugestao{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.footer-sugestao p{
+
+}
+
+.footer-sugestao p span{
+  font-weight: bold;
+}
+
+.icone-seta-pra-baixo-item-topicos{
+  width: 10px;
+  height: 5.5px;
+}
+
+.topicos-populares{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0 100px 0;
+  
+}
+
+.titulo-topicos-populares{
+  font-family: 'DM sans';
+  color: rgba(10, 4, 48, 1);
+  font-size: 40px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.titulo-topicos-populares span{
+  font-family: 'DM Serif Display';
+  font-style: italic;
+  color: rgba(111, 36, 233, 1);
+  font-weight: 400;
+
+}
+
+.topicos-populares-itens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.item-topico-popular{
+  background-color: rgba(223, 200, 254, 1);
+  width: 370px;
+  height: 420px;
+  border-radius: 50px;
+}
+
+.item-topico-popular-content{
+  font-family: 'DM sans';
+  margin: 25px 0 0 25px;
+  color: rgba(10, 4, 48, 1);
+}
+
+.item-topico-popular h3{
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.item-topico-popular p{
+  margin-bottom: 30px;  
+}
+
+/*centralizar isso aqui direito*/
+.item-topico-popular-section1{
+  display: flex;
+  align-items: center;  
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+/*centralizar isso aqui direito*/
+.item-topico-popular-section2{
+  display: flex;
+  align-items: center;
+  
+  gap: 10px;
+  font-size: 14px;
+}
+
+.comentario-icone-topico-popular{
+  width: 30px;
+  height: 30px;
+}
+
+.relogio-icone-topico-popular{
+  width: 30px;
+  height: 30px;
 
 }
