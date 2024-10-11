@@ -1,10 +1,55 @@
+@import url("./header/header.css");
+@import url("./footer/footer.css");
+
 body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+
 /* header */
+
+.nav-ponto {
+  position: relative;
+  left: 50%;
+}
+
+.header ul img {
+  display: none;
+  position: absolute;
+  margin: 3.4em 0 0 0;
+}
+
+/* media queries */
+
+@media (max-width: 1280px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Telas médias (até 1440px) */
+@media (max-width: 1440px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Telas grandes (até 1920px) */
+@media (max-width: 1920px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Telas muito grandes (acima de 1920px) */
+@media (min-width: 1921px) {
+  body {
+    font-size: 20px;
+  }
+}
 
 
 

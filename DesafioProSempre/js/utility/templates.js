@@ -1,7 +1,7 @@
 // templates de string para replicar
 
 const carroselEquipe = `
-    <div class="profissional">
+    <div class="profissional carousel-cell">
         <img src={imagem}> 
         <h3>{nome}</h3>
         <p>{profissao}</p>
@@ -11,7 +11,7 @@ const carroselEquipe = `
 
 const cardArtigo = `
     <div>
-        <img class="card-artigo" src={imagem}>
+        <img class="artigo-item" src={imagem}>
         <p class="card-descricao">{descricao}</p>
     </div>
 `
