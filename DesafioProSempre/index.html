@@ -4,65 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/home/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/header/header.css">
-    <link rel="stylesheet" href="/css/footer/footer.css">
-  </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/embla-carousel/embla-carousel.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/embla-carousel/embla-carousel.umd.js"></script>
+
+    <title>Home</title>
+</head>
+
+  <app-header></app-header>
   <body>
-    <header class="espacamento-header header">  
-        <img class="logo" src="/img/logos/logo-site.png">
-        <ul>
-            <li><a id="home">home</a></li>
-            <li><a id="videos">videos</a></li>
-            <li><a id="pais-e-profs">pais & profs</a></li>
-            <li><a id="forum">forum</a></li>
-        </ul>
-    </header>
-
-    <div id="app"></div>
-
-    <footer class="footer">
-      <section class="espacamento-header informacoes">
+      <div class="hero">
           <div>
-              <img class="logo" src="/img/logos/logo-site.png">
-              <p>EJECT © Alguns Direitos Reservados</p>
-          </div>
-          <div>
-              <h2 class="footer-titulo">CONTATO</h2>
-              <div class="footer-dados">
-                  <i>+55 21 99999-9999</i>
-                  <i>contato@sabidinhos.com</i>
-              </div>
-              <div class="footer-dados">
-                  <i>Rua ali perto, 2000 - Candelária</i>
-                  <i>Rio Grande do Norte - RN</i>
-                  <div class="espacamento-header">
-                      <img class="footer-icones" src="/img/logos/logo-insta.png">
-                      <img class="footer-icones" src="/img/logos/logo-fb.png">
-                      <img class="footer-icones" src="/img/logos/logo-yt.png">
-                  </div>
-              </div>
+              <h1>O melhor lugar para
+                  crianças <span class="roxo italico">aprenderem</span> &
+                  <span class="amarelo italico">brincarem</span></h1>
+                  <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Phasellus at mauris quis magna aliquet condimentum. 
+                      Cras et turpis id eros tincidunt faucibus. 
+                      Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu.</p>
+            <button class="saber-mais">Saber mais<img src="/img/icones/seta-dir.png"></button>
+        </div>
+    </div>
+    <section class="ferramentas">            
+        <h2 class="ferramentas-titulo">Nossas ferramentas
+            <span class="roxo italico">interativas</span></h2>
+            <div id="ferramentas">
+            <div class="ferramenta">
+                <h3>???</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="ferramenta">
+                    <h3>Atividades <span class="laranja italico">criativas</span></h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="ferramenta">
+                <h3>Jogos <span class="laranja italico">educacionais</span></h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </section>
+    
+        <div class="equipe-container">
+            <h2><span class="italico">Nossa equipe</span> <i>conta com os</i> 
+                <span class="amarelo italico">melhores e mais preparados</span> 
+                <i>profissionais</i> para criar o melhor conteúdo para 
+                <span class="amarelo italico">sua criança</span></h2>
+                <div class="membros">
+                    <img class="icone-seta" src="/img/icones/seta-esq.png">
+                    
+                    <div class="profissionais-carousel" id="profissionais">
+                    
+                    </div>
+                    
+                    <img class="icone-seta" src="/img/icones/seta-dir.png">
+                </div>
+            </div>
+            
+            <section class="artigos-container">
+                <h2 class="cards-titulo">Leia artigos e interaja no nosso
+                    <span class="roxo italico">fórum</span></h2>
+                    <div id="artigos" class="cards-artigo"></div>
+                </section>
+                
+                <section class="plataforma-container background-amarelo">
+                    <h2>Nossa plataforma oferece vídeos <span class="italico roxo">filtrados & selecionados</span> 
+            exclusivamente 
+            para cuidar da <span class="italico roxo">segurança</span> das suas crianças</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Phasellus at mauris quis magna aliquet condimentum.</p>
+                
+                <button class="plataforma-btn background-amarelo borda-roxa roxo">
+                    Assistir agora <img class="icone-seta background-roxo" src="/img/icones/seta-dir.png"/> 
+        </button>
+    </section>
 
-          </div>
-          <div>
-              <h2 class="footer-titulo">INFORMAÇÕES</h2>
-              <div class="footer-dados">
-                  <i>Exames Laboratoriais</i>
-                  <i>Consultas Veterinarias</i>
-                  <i>Plano PET de saúde</i>
-                  <i>Quem somos?</i>
-              </div>
-          </div>
-
-      </section>
-  </footer>
-    <script type="module" src="/js/main.js"></script>
-    <script type="module" src="../js/utility/data.js"></script>
-    <script type="module" src="../js/utility/utils.js"></script>
-  </body>
+    <section class="artigos-container">
+        <h2 class="cards-titulo">Materiais de apoio para
+            <span class="roxo italico">pais e professores</span></h2>
+            <div id="materiais" class="cards-artigo"></div>
+        </section>
+        
+        <section class="plataforma-container background-rosa">
+            <h2>Disponibilizamos jogos educacionais projetados para 
+                <span class="branco italico">estimular o aprendizado</span> 
+                das crianças, promovendo o 
+                <span class="branco italico">desenvolvimento cognitivo</span> 
+                e a<span class="branco italico"> criatividade.</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus at mauris quis magna aliquet condimentum.</p>
+        
+                    <button class="plataforma-btn background-rosa borda-branca branco">
+                        Assistir agora <img class="icone-seta background-branco" src="/img/icones/seta-dir-rosa.png"/> 
+                    </button>
+                </section>
+                
+                <app-footer></app-footer>
+                <script type="module" src="/js/main.js"></script>
+                <script src="./js/componentes/header.js"></script>
+                <script src="./js/componentes/footer.js"></script>
+            </body>
 </html>
