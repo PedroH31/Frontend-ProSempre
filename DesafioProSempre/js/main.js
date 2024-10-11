@@ -1,6 +1,6 @@
 import { renderizarDivs } from "./utility/utils"
-import { profissionais, artigos, materiais } from "./utility/data"
-import { carroselEquipe, cardArtigo } from "./utility/templates"
+import { profissionais, artigos, materiais, topicosPrincipais, itemTopico } from "./utility/data"
+import { carroselEquipe, cardArtigo, cardTopicosPrincipais, cardItemTopico } from "./utility/templates"
 
 document.addEventListener("DOMContentLoaded", function() {
 const root = document.querySelector("#app")
@@ -23,6 +23,12 @@ function renderizar(pagina) {
                 renderizarDivs("materiais", materiais, cardArtigo)
             }
 
+            if(pagina === "forum"){
+                renderizarDivs("topicos-populares", topicosPrincipais, cardTopicosPrincipais)
+                
+                renderizarDivs("topicos", itemTopico, cardItemTopico)
+            }
+            
         })
         .catch(error => {
             console.error(error)
