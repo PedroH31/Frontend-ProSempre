@@ -86,4 +86,10 @@ const cardItemTopico = `
 
 `
 
-export { cardArtigo, carroselEquipe, cardTopicosPrincipais, cardItemTopico }
+const cards = `
+    <div class="item">
+        <img src={imagem}>
+        <p>{descricao}</p>
+    </div>
+`
+export { cardArtigo, carroselEquipe, cards, cardTopicosPrincipais, cardItemTopico }

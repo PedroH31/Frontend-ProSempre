@@ -1,6 +1,11 @@
 import { renderizarDivs } from "./utility/utils"
+<<<<<<< HEAD
 import { profissionais, artigos, materiais, topicosPrincipais, itemTopico } from "./utility/data"
 import { carroselEquipe, cardArtigo, cardTopicosPrincipais, cardItemTopico } from "./utility/templates"
+=======
+import { profissionais, artigos, materiais, cardsColorir, cardsMaterias } from "./utility/data"
+import { carroselEquipe, cardArtigo, cards} from "./utility/templates"
+>>>>>>> main
 
 document.addEventListener("DOMContentLoaded", function() {
 const root = document.querySelector("#app")
@@ -21,6 +26,9 @@ function renderizar(pagina) {
                 renderizarDivs("profissionais", profissionais, carroselEquipe) 
                 renderizarDivs("artigos", artigos, cardArtigo)
                 renderizarDivs("materiais", materiais, cardArtigo)
+            } else if(pagina ==="pais-e-profs"){
+                renderizarDivs("cards-didaticos", cardsColorir, cards )
+                renderizarDivs("cards-materias", cardsMaterias, cards )
             }
 
             if(pagina === "forum"){

@@ -107,4 +107,4 @@ topicosPrincipais.forEach(element => {
     pessoas > 1 ? element.quantidadePessoas += " pessoas estão" : element.quantidadePessoas += " pessoa está"
 });
 
-export { artigos, materiais, profissionais, topicosPrincipais, itemTopico }
+export { artigos, materiais, profissionais, topicosPrincipais, itemTopico, cardsColorir, cardsMaterias }
