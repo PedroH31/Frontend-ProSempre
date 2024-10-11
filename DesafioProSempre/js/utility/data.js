@@ -55,4 +55,34 @@ const profissionais = [
     },
 ]
 
-export { artigos, materiais, profissionais }
+const cardsColorir =[
+    {
+        imagem:"../img/pais-e-profs/image-01-colorir.png",
+        descricao: "Alfabeto",
+    },
+    {
+        imagem:"../img/pais-e-profs/image-02-colorir.png",
+        descricao: "Natureza",
+    },
+    {
+        imagem:"../img/pais-e-profs/image-03-colorir.png",
+        descricao: "Brincadeiras"
+    }
+]
+
+const cardsMaterias = [
+    {
+        imagem:"../img/pais-e-profs/image-01-materias.png",
+        descricao: "Português",
+    },
+    {
+        imagem:"../img/pais-e-profs/image-02-materias.png",
+        descricao: "Matemática",
+    },
+    {
+        imagem:"../img/pais-e-profs/image-03-materias.png",
+        descricao: "História",
+    }
+]
+
+export { artigos, materiais, profissionais, cardsColorir, cardsMaterias }
