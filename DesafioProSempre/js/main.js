@@ -1,6 +1,6 @@
 import { renderizarDivs } from "./utility/utils"
-import { profissionais, artigos, materiais } from "./utility/data"
-import { carroselEquipe, cardArtigo } from "./utility/templates"
+import { profissionais, artigos, materiais, cardsColorir, cardsMaterias } from "./utility/data"
+import { carroselEquipe, cardArtigo, cards} from "./utility/templates"
 
 document.addEventListener("DOMContentLoaded", function() {
 const root = document.querySelector("#app")
@@ -21,6 +21,9 @@ function renderizar(pagina) {
                 renderizarDivs("profissionais", profissionais, carroselEquipe) 
                 renderizarDivs("artigos", artigos, cardArtigo)
                 renderizarDivs("materiais", materiais, cardArtigo)
+            } else if(pagina ==="pais-e-profs"){
+                renderizarDivs("cards-didaticos", cardsColorir, cards )
+                renderizarDivs("cards-materias", cardsMaterias, cards )
             }
 
         })

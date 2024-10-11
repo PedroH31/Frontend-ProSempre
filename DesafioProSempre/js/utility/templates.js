@@ -16,4 +16,10 @@ const cardArtigo = `
     </div>
 `
 
-export { cardArtigo, carroselEquipe }
+const cards = `
+    <div class="item">
+        <img src={imagem}>
+        <p>{descricao}</p>
+    </div>
+`
+export { cardArtigo, carroselEquipe, cards }
