@@ -6,6 +6,7 @@ section {
 span {
     font-family: "DM Serif Display", serif;
 }
+
 .italico {
     font-style: italic;
     font-weight: 400;
@@ -26,6 +27,9 @@ span {
 }
 
 
+.body{
+    color: var(rosa);
+}
 .main{
     margin: 0;
     height: 798px;
@@ -36,19 +40,70 @@ span {
     justify-content: top;
     align-items: center;
     margin-bottom: 88px;
+    margin-top: 78px;
 }
 
 .hero{
     background-image: url("/img/home/hero-bg.png");
     background-size: 100%;
     margin: 0;
-    height: 704px;
+    height: auto;
     width: 90%;
     display: flex;
     flex-direction: column;
     border: 1px solid red;
     justify-content: center;
     align-items: center;
+}
+
+.titulo-main{
+    margin-bottom: 88px;
+    width: 65%;
+}
+
+.imagens-hero{
+    /*background-color: pink;*/
+    width: auto;
+    height: 442px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:15px;
+}
+
+.hero img{
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.containerHeroPequeno{
+    /*background-color: lightblue;*/
+    width: 19%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-height: 204px;
+}
+
+.containerHeroGrande{
+    /*background-color: lightblue;*/
+    width:24%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 442px;
+    max-width: 230px;
+}
+
+.legenda-main{
+    height: 64px;
+    width: 40%;
+    margin: 0;
 }
 
 .main h1 {

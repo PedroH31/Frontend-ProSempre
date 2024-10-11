@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/pais-e-profs/pais-e-profs.css">
+    <link rel="stylesheet" href="../css/pais-e-profs/carrossel.css">
     <title>Pais e Professores</title>
 </head>
 <body>
@@ -14,26 +15,24 @@
         <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna <br> aliquet condimentum. Cras et turpis id eros tincidunt faucibus. Nullam aliquam malesuada <br> neque, ac hendrerit lacus tincidunt eu. Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Phasellus at mauris quis magna aliquet condimentum. Cras et turpis id eros tincidunt<br> faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu.</p>
     </div>
     <main>
-        <section class="colorir">
+        <section class="card-colorir">
             <h2 class="subtitulo">Desenhos para <span class="amarelo">colorir</span>
                 <div class="rectangle-divider"></div>
             </h2>
-            
-            <div class="cards">
-                <div class="item">
-                    <img src="../../img/pais-e-profs/image-01-colorir.png">
-                    <p>Alfabeto</p>
-                </div>
-                <div class="item">
-                    <img src="../../img/pais-e-profs/image-02-colorir.png">
-                    <p>Natureza</p>
-                </div>
-                <div class="item">
-                    <img src="../../img/pais-e-profs/image-03-colorir.png">
-                    <p>Brincadeiras</p>
-                </div>
-            </div>
+            <div class="cards" id="cards-didaticos"></div>
+        </section>
+        <section class="card-didaticos">
+            <h2 class="subtitulo">Cartões <span class="roxo">didáticos</span>
+                <div class="rectangle-divider"></div>
+            </h2>
+            <div class="cards" id="cards-materias"></div>
+        </section>
+        <section class="carrosel card-pais">
+            <h2 class="subtitulo">Conhecimento para <span class="rosa">pais e professores</span>
+                <div class="rectangle-divider"></div>
+            </h2>
         </section>
     </main>
+    <script src="../../js/pais-e-profs/slider.js"></script>
 </body>
 </html>
