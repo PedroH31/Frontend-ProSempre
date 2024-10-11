@@ -93,6 +93,7 @@ const itemTopico = [
     }
 ]
 
+// automatizar o singular e plural nos itens de topicos e juntar o nome dos comentadores
 itemTopico.forEach(e=>{
     e.comentadoresEmComum = e.comentadoresEmComum.join(", ")
     const pessoas = Number(e.quantidadePessoas)
@@ -106,5 +107,35 @@ topicosPrincipais.forEach(element => {
     const pessoas = Number(element.quantidadePessoas)
     pessoas > 1 ? element.quantidadePessoas += " pessoas estão" : element.quantidadePessoas += " pessoa está"
 });
+
+const cardsColorir =[
+    {
+        imagem:"../img/pais-e-profs/image-01-colorir.png",
+        descricao: "Alfabeto",
+    },
+    {
+        imagem:"../img/pais-e-profs/image-02-colorir.png",
+        descricao: "Natureza",
+    },
+    {
+        imagem:"../img/pais-e-profs/image-03-colorir.png",
+        descricao: "Brincadeiras"
+    }
+]
+
+const cardsMaterias = [
+    {
+        imagem:"../img/pais-e-profs/image-01-materias.png",
+        descricao: "Português",
+    },
+    {
+        imagem:"../img/pais-e-profs/image-02-materias.png",
+        descricao: "Matemática",
+    },
+    {
+        imagem:"../img/pais-e-profs/image-03-materias.png",
+        descricao: "História",
+    }
+]
 
 export { artigos, materiais, profissionais, topicosPrincipais, itemTopico, cardsColorir, cardsMaterias }
